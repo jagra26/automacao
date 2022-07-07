@@ -6,7 +6,7 @@
 
 ## Indice
 
-- [Uso](uso)
+- [Uso](#uso)
 
 ## Uso
 

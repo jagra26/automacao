@@ -1,4 +1,5 @@
-# Projeto de Automação Industrial
+## Projeto de Automação Industrial
+## Instituto de Computação - Universidade Federal de Alagoas
 
 - João Arthur Gaia
 
@@ -6,9 +7,67 @@
 
 ## Indice
 
-- [Uso](#uso)
+- [Descrição](#descrição)
+- [Esquemática](#esquemática)
+- [Tabelas de Endereçamento](#tabelas-de-endereçamento)
+- [Descrições Lógicas](#descrições-lógicas)
+- [Tabelas da Verdade](#tabelas-da-verdade)
+- [Código Ladder no CLP](#código-ladder-no-clp)
+- [Como rodar](#como-rodar)
 
-## Uso
+## Descrição
+A ideia do projeto é automatizar a separação de objetos automaticamente, utilizando uma cena de triagem de objetos do Factory IO. Os objetos entram na esteira principal, passam pelo sensor ótico, que identifica a classe do objeto, e os separadores atuam, de acordo com a classe do objeto, para os separar corretamente, baseado numa lógica programada em Ladder no simulador de CLP fornecido pelo TIA Portal v17.
+
+## Esquemática
+![image](statics/esquematico.png)
+
+## Tabelas de Endereçamento
+
+todo
+
+## Descrições Lógicas
+
+todo
+
+## Tabelas da Verdade
+
+todo
+
+## Código Ladder no CLP
+Ladder responsável pela conexão entre o TIA Portal v17 e o Factory IO
+
+![image](statics/rede1.png)
+
+todo
+
+![image](statics/rede21.png)
+
+todo
+
+![image](statics/rede22.png)
+
+todo
+
+![image](statics/rede23.png)
+
+todo
+
+![image](statics/rede24.png)
+
+todo
+
+![image](statics/rede25.png)
+
+todo
+
+![image](statics/rede26.png)
+
+todo
+
+![image](statics/rede27.png)
+
+
+## Como rodar
 
 * Primeiro, abra a cena do Factory IO, vá em `FILE->Drivers`. Confirme se o driver é `Siemens S7-PLCSIM`:
 

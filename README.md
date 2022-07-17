@@ -23,11 +23,49 @@ A ideia do projeto é automatizar a separação de objetos automaticamente, util
 
 ## Tabelas de Endereçamento
 
-todo
+A tabela de endereçamento foi construida baseada nos endereços fornecidos pelos sensores e aturadores do Factory IO, abaixo é mostrado os endereços em forma de tabela:
+
+|   Nome            |   Endereço   | Tipo da variável |
+| ----------------- | ------------ | ---------------- |
+| At exit           | %10.0        | BOOL             |
+| Start             | %10.1        | BOOL             |
+| Reset             | %10.2        | BOOL             |
+| Stop              | %10.3        | BOOL             |
+| Emergency stop    | %10.4        | BOOL             |
+| Vision Sensor     | %ID30        | DWORD            |
+| Entry conveyor    | %Q0.0        | BOOL             |
+| Exit conveyor     | %Q0.2        | BOOL             |
+| Sorter 1 turn     | %Q0.3        | BOOL             |
+| Sorter 1 belt     | %Q0.4        | BOOL             |
+| Sorter 2 turn     | %Q0.5        | BOOL             |
+| Sorter 2 belt     | %Q0.6        | BOOL             |
+| Sorter 3 turn     | %Q0.7        | BOOL             |
+| Sorter 3 belt     | %Q1.0        | BOOL             |
+| Counter 1         | %QD30        | DWORD            |
+| Counter 2         | %QD34        | DWORD            |
+| Counter 3         | %QD38        | DWORD            |
 
 ## Descrições Lógicas
 
-todo
+|   Nome            |   Descrição  |
+| ----------------- | ------------ |
+| At exit           | Sensor que detecta quando um objeto passa para as rampas |
+| Start             | Botão de início |
+| Reset             | Botão de re-início |
+| Stop              | Botão de parada do processo |
+| Emergency stop    | Botão de emergência para parar o processo. Também usado para iniciar o processo |
+| Vision Sensor     | Sensor óptico detecta/identifica objetos. Usado para separar os objetos |
+| Entry conveyor    | Esteira utilizada para transportar os objetos até o sensor óptico |
+| Exit conveyor     | Esteira que contêm os separadores |
+| Sorter 1 turn     | Separador do primeiro tipo |
+| Sorter 1 belt     | Correia do separador do primeiro tipo |
+| Sorter 2 turn     | Separador do segundo tipo |
+| Sorter 2 belt     | Correia do separador do segundo tipo |
+| Sorter 3 turn     | Separador do terceiro tipo |
+| Sorter 3 belt     | Correia do separador do terceiro tipo |
+| Counter 1         | Contador do primeiro tipo |
+| Counter 2         | Contador do primeiro tipo |
+| Counter 3         | Contador do primeiro tipo |
 
 ## Tabelas da Verdade
 

@@ -64,8 +64,8 @@ A tabela de endereçamento foi construida baseada nos endereços fornecidos pelo
 | Sorter 3 turn     | Separador do terceiro tipo |
 | Sorter 3 belt     | Correia do separador do terceiro tipo |
 | Counter 1         | Contador do primeiro tipo |
-| Counter 2         | Contador do primeiro tipo |
-| Counter 3         | Contador do primeiro tipo |
+| Counter 2         | Contador do segundo tipo |
+| Counter 3         | Contador do terceiro tipo |
 
 ## Tabelas da Verdade
 
@@ -76,31 +76,25 @@ Ladder responsável pela conexão entre o TIA Portal v17 e o Factory IO
 
 ![image](statics/rede1.png)
 
-todo
+Ladder que implementa a lógica de ligar e desligar as esteiras Entry e Exit conveyor baseados nos botões Emergency stop, Start e Stop.
 
 ![image](statics/rede21.png)
 
-todo
+Ladder responsável por implementar a lógica de identificar e ativar os atuadores Sort 1 belt e turn para separar os objetos do tipo 1, utiliza a leitura do Vision sensor.
 
 ![image](statics/rede22.png)
 
-todo
-
 ![image](statics/rede23.png)
 
-todo
+Ladder responsável por implementar a lógica de identificar e ativar os atuadores Sort 2 belt e turn para separar os objetos do tipo 2, utiliza a leitura do Vision sensor.
 
 ![image](statics/rede24.png)
 
-todo
-
 ![image](statics/rede25.png)
 
-todo
+Ladder responsável por implementar a lógica de identificar e ativar os atuadores Sort 3 belt e turn para separar os objetos do tipo 3, utiliza a leitura do Vision sensor.
 
 ![image](statics/rede26.png)
-
-todo
 
 ![image](statics/rede27.png)
 

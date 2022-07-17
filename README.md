@@ -80,7 +80,7 @@ Ladder que implementa a lógica de ligar e desligar as esteiras Entry e Exit con
 
 ![image](statics/rede21.png)
 
-Ladder responsável por implementar a lógica de identificar e ativar os atuadores Sort 1 belt e turn para separar os objetos do tipo 1, utiliza a leitura do Vision sensor.
+Ladder responsável por implementar a lógica de identificar e ativar os atuadores Sort 1 belt e turn para separar os objetos do tipo 1, utiliza a leitura do Vision sensor. Basicamente, quando um tipo é detectado pelo Vision sensor, um timer é ativado com a quantidade de tempo proporcional ao tipo do objeto detectado, baseado na distância do começo da Exit conveyor até o respectivo Sort belt e turn. Lógica se aplica também para os tipos 2 e 3, como é visto nas próximas prints.
 
 ![image](statics/rede22.png)
 
